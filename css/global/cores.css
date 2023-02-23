@@ -1,0 +1,35 @@
+:root{
+    --cor-0:#fff;
+    --cor-titulo:#222222;
+    --cor-texto-1:#7c7c7c;
+    --cor-texto-2:#a4a4a4;
+
+    --bkg-1:#122ab2;
+    --bkg-2:#2c70ff;
+
+}
+.cor-0{
+    color:var(--cor-0);
+}
+.cor-titulo-1{
+    color:var(--cor-titulo);
+}
+.cor-titulo-2{
+    color:var(--cor-texto-2);
+}
+.cor-texto-1{
+    color:var(--cor-texto-1);
+}
+.cor-footer{
+    color:var(--bkg-1);
+}
+
+/*background*/
+.bkg-1{
+    background-color: var(--bkg-1);
+    padding: 10px;
+}
+.bkg-2{
+    background-color: var(--bkg-2);
+
+}

@@ -1,0 +1,64 @@
+/*Preço*/
+#preco {
+    background: #f7f7f7;
+    padding: 60px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+.preco-item{
+    border: 4px solid #fff;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 260px;
+}
+.preco-item h2{
+    margin-bottom: 20px;
+}
+.preco-item span,
+.preco-item h2{ 
+   text-align: center;
+}
+.preco-item a{
+    align-self: center;
+}
+.preco-item span{ 
+    display: block;
+    border-top: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+    padding: 20px;
+}
+.preco-item sup{ 
+    font-size: 1.5rem;
+}
+.lista{
+    margin: 40px 0 40px 0;
+    list-style: none;
+    
+}
+.preco-item li{
+    position: relative;
+    display: flex;
+    align-items: center;
+}    
+.preco-item li + li{
+   margin-top: 10px;
+}  
+.preco-item li::after{
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: var(--bkg-2);
+    border-radius: 50%;
+    right: 0;
+}
+.preco-item a{ 
+    border: 4px solid #000;
+    color: #000;
+    align-items: center;
+    padding: 10px 20px;
+}

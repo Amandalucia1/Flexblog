@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 2%;
+}
+.none{
+    list-style: none;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+.upper{
+    text-transform: uppercase;
+}
+

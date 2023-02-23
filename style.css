@@ -1,0 +1,38 @@
+/*Global*/
+
+/*global*/
+@import url(./css/global/global.css);
+
+/*tipografia*/
+@import url(./css/global/tipografia.css);
+
+/*menu*/
+@import url(./css/global/menu.css);
+
+/*Cores*/
+@import url(./css/global/cores.css);
+
+/*Caracteristica Flex*/
+@import url(./css/global/flex.css);
+
+
+
+/*Homepage*/
+
+/*Sobre*/
+@import url(./css/homepage/sobre.css);
+
+/*Produto*/
+@import url(./css/homepage/produtos.css);
+
+/*Preço*/
+@import url(./css/homepage/preco.css);
+/*Qualidade*/
+@import url(./css/homepage/qualidade.css);
+
+/*newslatter*/
+@import url(./css/homepage/newslatter.css);
+
+
+/*footer*/
+@import url(./css/homepage/footer.css);

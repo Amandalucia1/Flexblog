@@ -1,0 +1,22 @@
+/*Introdução*/
+.intro h1{
+    margin: 50px 0;
+}
+#sobre p + p {
+    padding-top: 10px;
+}
+#sobre h2{
+    padding-bottom: 30px;
+}
+#sobre{
+    border-top: 2px solid var(--bkg-2);
+    padding: 60px 0;
+    border-bottom: 2px solid var(--bkg-2);
+    margin-bottom: 40px;
+}
+.sobre-info{
+    flex: 2 1 300px;
+}
+.sobre-img{
+    flex: 1 1 160px;
+}

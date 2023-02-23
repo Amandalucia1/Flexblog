@@ -1,0 +1,33 @@
+#qualidade{
+    margin: 60px 0;
+}
+#qualidade li{
+    flex: 1 1 250px;
+}
+
+#qualidade h2{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#qualidade h2::before{
+    position: absolute;
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 30px; 
+    margin-left: -20px;
+}
+#qualidade li:nth-child(3n+1) h2::before {/*1° item + 3 ou seja 4º item*/
+    background-color: #ae88ff;
+}
+#qualidade li:nth-child(3n+2) h2::before{/*2° item + 3 ou seja 5º item*/
+    background-color: #f9265e;
+}
+#qualidade li:nth-child(3n+3) h2::before{/*3° item + 3 ou seja 6º item*/
+    background-color: #66d9eb;
+}
+

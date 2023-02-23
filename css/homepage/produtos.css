@@ -1,0 +1,28 @@
+/*Produtos*/
+.produto-container{
+    display: flex;
+    align-items: flex-end;/*Alinha a linha no final*/
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+#produto h2{
+    padding-bottom: 60px;
+}
+.produto-item{
+    flex: 1 1 250px;
+   margin: 10px;
+}
+.produto-item h3{
+    background: #f7f7f7;
+    padding: 60px 20px;
+}
+.produto-item:first-child{
+    border-top: 8px solid #ae88ff;
+
+}
+.produto-item:nth-child(2){
+    border-top: 8px solid #f9265e;
+}
+.produto-item:nth-child(3){
+    border-top: 8px solid #66d9eb;
+}

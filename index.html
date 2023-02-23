@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexblog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+        <meta name="description" content="Criando um blog usando propriedades flexbox">
+    <link rel="stylesheet" href="./style.min.css">
+</head>
+
+<body>
+    <section class="bkg-1 font-text-1">
+        <ul class="cor-0 none flex justify container">
+            <li>Seg / Sex - 08:00 às 18:00</li>
+            <li><a class="cor-0" href="tel:+552199999999">+55 21 9999-9999</a></li>
+            <li>Av. Ali Perto, 330, Botafogo - RJ</li>
+        </ul>
+    </section>
+    <header class="bkg-2">
+        <nav class="flex container menu">
+            <div class="cor-0 font-titulo-2">Flexblog</div>
+            <ul class="none flex gap-0 wrap">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#produto">Produtos</a></li>
+                <li><a href="#preco">Preço</a></li>
+                <li><a href="#qualidade">Qualidade</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro container">
+            <h1 class="font-titulo-1 cor-titulo-1">Novos valores e <br>Propriedades de CSS</h1>
+            <article id="sobre">
+                <h2 class="font-titulo-1 cor-titulo-1">Sobre</h2>
+                <div class="flex gap-1 wrap">
+                    <div class="sobre-info">
+                        <p class="cor-texto-1 font-texto-1">O que temos que ter sempre em mente é que a determinação
+                            clara de objetivos afeta positivamente a correta previsão das condições inegavelmente
+                            apropriadas objetivos.</p>
+                        <p class="cor-texto-1 font-texto-1">O que temos que ter sempre em mente é que a determinação
+                            clara de objetivos afeta positivamente a correta previsão das condições inegavelmente
+                            apropriadas objetivos.</p>
+                    </div>
+                    <div class="sobre-img"><img src="./img/sobre1.jpg" alt="Pessoa no fundo roxo"></div>
+                    <div class="sobre-img"><img src="./img/sobre2.jpg" alt="Pessoa pintando"></div>
+                </div>
+            </article>
+        </section>
+
+        <section id="produto" class="container">
+            <h2 class="cor-titulo-1 font-titulo-1">Produtos</h2>
+            <div class="produto-container">
+                <div class="produto-item">
+                    <h3 class="font-titulo-1 cor-titulo-2">Purple</h3>
+                    <div><img src="./img/produtos1.jpg" alt="imagem com talheres na mesa"></div>
+
+                </div>
+                <div class="produto-item">
+                    <h3 class="font-titulo-1 cor-titulo-2">Pink</h3>
+                    <div><img src="./img/produtos2.jpg" alt="itens pessoais em vermelho"></div>
+
+                </div>
+                <div class="produto-item">
+                    <h3 class="font-titulo-1 cor-titulo-2">Blue</h3>
+                    <div><img src="./img/produtos3.jpg" alt="itens numa mesa no fundo azul"></div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="preco">
+
+            <div class="preco-item">
+                <h2 class="font-titulo-1 cor-titulo-2">Cobre</h2>
+                <span class="font-titulo-1"><sup>R$</sup>19</span>
+                <ul class="cor-texto-1 font-texto-2 lista">
+                    <li>Planos Ilimitados</li>
+                    <li>Acesso Restrito</li>
+                    <li>Conteúdo Secreto</li>
+                    <li>Suporte 24h</li>
+                </ul>
+                <a class="upper font-titulo-2" href="./">comprar</a>
+
+            </div>
+
+
+            <div class="preco-item">
+                <h2 class="font-titulo-1 cor-titulo-2">Prata</h2>
+                <span class="font-titulo-1"><sup>R$</sup>39</span>
+                <ul class="cor-texto-1 font-texto-2 lista">
+                    <li>Planos Ilimitados</li>
+                    <li>Acesso Restrito</li>
+                    <li>Conteúdo Secreto</li>
+                    <li>Suporte 24h</li>
+                    <li>Compra Exclusiva</li>
+                </ul>
+                <a class="upper font-titulo-2" href="./">comprar</a>
+            </div>
+
+
+            <div class="preco-item">
+                <h2 class="font-titulo-1 cor-titulo-2">Ouro</h2>
+                <span class="font-titulo-1"><sup>R$</sup>79</span>
+                <ul class="cor-texto-1 font-texto-2 lista">
+                    <li>Planos Ilimitados</li>
+                    <li>Acesso Restrito</li>
+                    <li>Conteúdo Secreto</li>
+                    <li>Suporte 24h</li>
+                    <li>Compra Exclusiva</li>
+                    <li>Compra Exclusiva</li>
+                    <li>Download dos Itens</li>
+                </ul>
+                <a class="upper font-titulo-2" href="./">comprar</a>
+
+            </div>
+
+
+        </section>
+
+        <section id="qualidade">
+                <ul class="flex none container gap-2 wrap">
+                    <li>
+                        <h2 class="cor-titulo-2 font-titulo-2">Inteligente</h2>
+                        <p class="font-texto-2 cor-texto-1">O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas.</p>
+                    </li>
+                    <li>
+                        <h2 class="cor-titulo-2 font-titulo-2">Compacto</h2>
+                        <p class="font-texto-2 cor-texto-1">O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas.</p>
+                    </li>
+                    <li>
+                        <h2 class="cor-titulo-2 font-titulo-2">Econômico</h2>
+                        <p class="font-texto-2 cor-texto-1">O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas.</p>
+                    </li>
+
+                    <li>
+                        <h2 class="cor-titulo-2 font-titulo-2">Transparente</h2>
+                        <p class="font-texto-2 cor-texto-1">O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas. </p>
+                    </li>
+                    <li>
+                        <h2 class="cor-titulo-2 font-titulo-2">Opaco</h2>
+                        <p class="font-texto-2 cor-texto-1">O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas.</p>
+                    </li>
+                    <li>
+                        <h2 class="cor-titulo-2 font-titulo-2">Sustentável</h2>
+                        <p class="font-texto-2 cor-texto-1">O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas.</p>
+                    </li>
+                </ul>
+        </section>
+
+        <section id="newslatter">
+            <div class="flex container wrap gap-2">
+                <div class="new-info">
+                    <h2 class="font-titulo-1 cor-titulo-2">Newsletter</h2>
+                    <p class="font-texto-2 cor-texto-1">assine e fique por dentro das novidades</p>
+                </div>
+
+                <form class="envio wrap">
+                    <input class="font-texto-2 cor-texto-1" type="text" name="assinar" id="assinar" placeholder="Seu e-mail">
+                    <input class="font-titulo-2 cor-0 botao upper" type="button" value="assinar">
+
+            </div>
+
+        </section>
+
+    </main>
+    <footer class="bkg-2"><p class="cor-footer font-titulo-2 container">FlexBlog © Todos os direitos reservados.</p></footer>
+
+</body>
+
+</html>
