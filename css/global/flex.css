@@ -16,3 +16,8 @@
 .wrap{
     flex-wrap: wrap;
 }
+@media(max-width:600px){
+    .flex{
+        justify-content: center;
+    }
+}

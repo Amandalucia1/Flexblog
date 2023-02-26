@@ -1,3 +1,8 @@
+.informacao{
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 a{
     text-decoration: none;
 }
@@ -17,4 +22,23 @@ a{
 .menu a:hover{
     background-color: #2c43c655;
     border-radius: 5px;
+}
+@media(max-width:500px){
+    .informacao{
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu {
+        gap: 10px;
+        padding: 10px;
+    }
+    .menu div {
+        display: block;
+        margin: auto;
+    }
+    .menu ul {
+       justify-content: center;
+    }
+
 }

@@ -31,3 +31,11 @@
     background-color: #66d9eb;
 }
 
+@media(max-width:600px){
+    #qualidade h2::before {
+       display: none;
+    }
+    #qualidade{
+        margin: 30px 0;
+    }
+}

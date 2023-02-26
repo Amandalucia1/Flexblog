@@ -67,4 +67,7 @@
         padding: 30px;
         
     }
+    .preco-item li {
+        justify-content: center;
+    }
 }

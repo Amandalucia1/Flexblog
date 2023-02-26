@@ -19,6 +19,15 @@
         font-size: 1.8rem;
     }
 }
+@media(max-width:600px){
+    .font-titulo-1, .font-texto-1, .font-texto-2{
+       text-align: center;
+    } 
+    .font-titulo-2{
+        text-align: center;
+
+    }
+}
 @media(max-width:550px){
     .font-titulo-1{
         font-size: 2.4rem;
