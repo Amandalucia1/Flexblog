@@ -19,3 +19,11 @@
         font-size: 1.8rem;
     }
 }
+@media(max-width:550px){
+    .font-titulo-1{
+        font-size: 2.4rem;
+    } 
+    .font-titulo-2{
+        font-size: 1.5rem;
+    }
+}

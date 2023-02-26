@@ -26,3 +26,15 @@
 .produto-item:nth-child(3){
     border-top: 8px solid #66d9eb;
 }
+@media(max-width:600px){
+    .produto-container{
+        margin-bottom: 30px;
+    }
+    #produto h2 {
+        padding-bottom: 30px;
+    }
+    .produto-item h3 {
+        background: #f7f7f7;
+        padding: 30px 12px;
+    }
+}
