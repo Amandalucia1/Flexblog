@@ -18,7 +18,7 @@
 
 ## 💻 Sobre o projeto
 
-Foi criado um blog usando somente Flexbox.
+Foi um projeto do curso de Flexbox da Origamid criado um blog usando somente Flexbox.
 
 ---
 
@@ -27,7 +27,6 @@ Foi criado um blog usando somente Flexbox.
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
-- JavaScript
 - Git e Github
 
 ---
