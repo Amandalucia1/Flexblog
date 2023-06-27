@@ -22,6 +22,17 @@ Foi um projeto do curso de Flexbox da Origamid criado um blog usando somente Fle
 
 ---
 
+## ⚙️ Funcionalidades
+- [x] Venda de Planos e Orçamento:
+  - [x] A página apresenta uma seção dedicada à venda de planos ou serviços.
+  - [x] Os diferentes planos ou serviços são exibidos de forma organizada e atraente usando o flexbox CSS.
+
+
+- [x] Newsletter:
+  - [x] A página inclui uma seção para os visitantes se inscreverem em uma newsletter.
+  - [x] Utilizando o flexbox CSS, essa seção é exibida de forma atraente e responsiva.
+
+---
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
